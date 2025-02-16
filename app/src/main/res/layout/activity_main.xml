@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1C1C1C"
+    android:padding="24dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="20dp"
+
+        android:backgroundTint="#FFD700"
+        android:hint="Enter email"
+        android:padding="12dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#E9DFDF"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/etpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter password"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#FFD700"
+        android:textColorHint="#E9DFDF"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"
+        android:textSize="16sp"
+    />
+
+    <Button
+        android:id="@+id/btnLog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#FFD700"
+        android:textColor="#1C1C1C"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account? SIGN UP HERE"
+        android:textColor="#FFD700"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="14sp"
+        android:padding="10dp"
+        android:clickable="true"
+        android:focusable="true" />
+
+
+</LinearLayout>
